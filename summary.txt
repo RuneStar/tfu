@@ -1,0 +1,64 @@
+Summary for output\tfu.jar
+Decompiled with CFR 0.146
+
+
+com.jagex.jnibindings.runetek6.jagbullet.DiscreteDynamicsWorld
+----------------------------
+
+x(com.jagex.jnibindings.runetek6.jagbullet.E6 com.jagex.jnibindings.runetek6.jagbullet.Q7 boolean int int java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl9 : NEW : trying to set 0 previously set to 2
+u(com.jagex.jnibindings.runetek6.jagbullet.E6 com.jagex.jnibindings.runetek6.jagbullet.Q7 float boolean int int java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl9 : NEW : trying to set 0 previously set to 2
+ag(com.jagex.jnibindings.runetek6.jagbullet.E6 com.jagex.jnibindings.runetek6.jagbullet.Q7 int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl9 : NEW : trying to set 0 previously set to 2
+t(com.jagex.jnibindings.runetek6.jagbullet.E6 )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl9 : NEW : trying to set 0 previously set to 2
+
+
+tfu.Fr156
+----------------------------
+
+<init>(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl639 : IINC : trying to set 0 previously set to 2
+
+
+tfu.Gw492
+----------------------------
+
+d(tfu.Ge473 )
+  Unable to fully structure code
+
+
+tfu.Ai354
+----------------------------
+
+q(long tfu.Fk353 tfu.Fp460 tfu.Hi86 java.util.Map java.util.Map )
+  Unable to fully structure code
+
+
+rs2.client.login.B271
+----------------------------
+
+d(float )
+  Unable to fully structure code
+
+
+tfu.Cv549
+----------------------------
+
+j(int[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[DOLOOP]], but top level block is 24[SIMPLE_IF_TAKEN]
+
+
+tfu.Cm645
+----------------------------
+
+j(int[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[DOLOOP]], but top level block is 29[SIMPLE_IF_TAKEN]
+
+
+tfu.M688
+----------------------------
+
+r(tfu.M688 tfu.P689 com.jagex.js5.js5 tfu.Ca649 int )
+  Unable to fully structure code

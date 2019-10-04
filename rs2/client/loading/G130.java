@@ -1,0 +1,51 @@
+/*
+ * Decompiled with CFR 0.146.
+ */
+package rs2.client.loading;
+
+import tfu.Mk163;
+
+public enum G130 {
+    WAIT_FOR_MEMORY(Mk163.CHECKING_FOR_UPDATES, Mk163.CHECKING_FOR_UPDATES, 0, 1),
+    INIT_NATIVE_REGISTRY(Mk163.CHECKING_FOR_UPDATES, Mk163.CHECKING_FOR_UPDATES, 2, 5),
+    LOAD_NATIVE_DLLS(Mk163.CHECKING_FOR_UPDATES, 6),
+    CONSTRUCT_TOOLKIT(Mk163.CHECKING_FOR_UPDATES, 7),
+    OPEN_JS5_ARCHIVES(Mk163.CHECKING_FOR_UPDATES, Mk163.CHECKING_FOR_UPDATES, 9, 15),
+    GET_JS5_INDEXES(Mk163.CHECKING_FOR_UPDATES, Mk163.CHECKING_FOR_UPDATES, 16, 20, true, true),
+    DOWNLOAD_STUFF(Mk163.DOWNLOADING_UPDATES, Mk163.DOWNLOADING_UPDATES, 21, 86, true, true),
+    REGISTER_NATIVE_JS5S(Mk163.DOWNLOADING_UPDATES, 87),
+    SETUP_CONFIG_DECODERS(Mk163.DOWNLOADING_UPDATES, 87),
+    SETUP_SOUND_LIBRARY(Mk163.CHECKING_FOR_UPDATES, 88),
+    SETUP_GRAPHICS_CONFIGURATIONS(Mk163.DOWNLOADING_UPDATES, 89),
+    INIT_SCRIPTING(Mk163.DOWNLOADING_UPDATES, Mk163.DOWNLOADING_UPDATES, 90, 91),
+    SETUP_STATIC_SPRITES(Mk163.DOWNLOADING_UPDATES, Mk163.DOWNLOADING_UPDATES, 92, 93),
+    FETCH_FONTS(Mk163.DOWNLOADING_UPDATES, Mk163.DOWNLOADING_UPDATES, 94, 96),
+    SETUP_VARC_SYSTEM(Mk163.DOWNLOADING_UPDATES, 98),
+    CLEANUP(Mk163.DOWNLOADING_UPDATES, 99),
+    LOADING_COMPLETE(Mk163.DOWNLOADING_UPDATES, 100);
+    
+    public final boolean i;
+    public final int k;
+    public final Mk163 m;
+    public final int n;
+    public final boolean o;
+    public final Mk163 t;
+
+    private G130(Mk163 mk163, Mk163 mk1632, int n2, int n3) {
+        this(mk163, mk1632, n2, n3, true, false);
+    }
+
+    private G130(Mk163 mk163, int n2) {
+        this(mk163, mk163, n2, n2, true, false);
+    }
+
+    private G130(Mk163 mk163, Mk163 mk1632, int n2, int n3, boolean bl, boolean bl2) {
+        this.t = mk163;
+        this.m = mk1632;
+        this.n = n2;
+        this.k = n3;
+        this.i = bl;
+        this.o = bl2;
+    }
+}
+
