@@ -1,0 +1,18 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+package rs2.client.login;
+
+enum Q580
+{
+    WAIT_FOR_CONNECTION_ACK("WAIT_FOR_CONNECTION_ACK", 1), 
+    WAIT_FOR_SSO_KEY_RESPONSE("WAIT_FOR_SSO_KEY_RESPONSE", 4), 
+    CONNECT("CONNECT", 0), 
+    WAIT_FOR_SSO_KEY("WAIT_FOR_SSO_KEY", 5), 
+    WAIT_FOR_SOCIAL_NETWORK_TOKEN("WAIT_FOR_SOCIAL_NETWORK_TOKEN", 3), 
+    WAIT_FOR_SOCIAL_NETWORK_TOKEN_LENGTH("WAIT_FOR_SOCIAL_NETWORK_TOKEN_LENGTH", 2);
+    
+    private Q580(final String name, final int ordinal) {
+    }
+}
